@@ -6,7 +6,7 @@ import {commentsFromServer} from "@/data/commentsFromServer";
 const CommentsPage: FC = () => {
     const router = useRouter();
 
-    const onUserClick = (commentId: number) => {
+    const onCommentClick = (commentId: number) => {
         router.push(`/comments/${commentId}`);
     };
 
@@ -15,7 +15,7 @@ const CommentsPage: FC = () => {
             <h2>CommentsPage content</h2>
             <ul>
                 {commentsFromServer.map(({ id, title, body}) => (
-                    <li key={id} onClick={() => onUserClick(id)} style={{ cursor: 'pointer', padding: '5px' }}>
+                    <li key={id} onClick={() => onCommentClick(id)} style={{ cursor: 'pointer', padding: '5px' }}>
                         <h3>{title}</h3>
                         <p>{body}</p>
                     </li>
