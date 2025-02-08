@@ -2,12 +2,12 @@ import {ReactNode} from 'react';
 import {Metadata} from 'next';
 
 export const metadata: Metadata = {
-    title: 'UserLayout metadata'
+    title: 'All cars'
 };
 
 type Props = { children: ReactNode }
 
-const UserLayout = ({ children }: Props ) => {
+const CarsLayout = ({ children }: Props ) => {
     return (
         <>
             {children}
@@ -15,4 +15,4 @@ const UserLayout = ({ children }: Props ) => {
     );
 };
 
-export default UserLayout;
+export default CarsLayout;

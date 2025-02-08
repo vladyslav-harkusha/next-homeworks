@@ -1,0 +1,14 @@
+.new-car-form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    gap: 20px;
+
+    input, button {
+        padding: 5px 20px;
+    }
+    
+    button {
+        cursor: pointer;
+    }
+}

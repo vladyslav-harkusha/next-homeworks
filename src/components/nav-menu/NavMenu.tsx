@@ -7,9 +7,8 @@ import cn from 'classnames';
 
 const linksInfo = [
     { name: 'Home', endpoint: '/' },
-    { name: 'Users', endpoint: '/users' },
-    { name: 'Posts', endpoint: '/posts' },
-    { name: 'Comments', endpoint: '/comments' },
+    { name: 'Cars', endpoint: '/cars' },
+    { name: 'New car', endpoint: '/new-car' },
 ];
 
 const NavMenu: FC = () => {

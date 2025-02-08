@@ -1,0 +1,11 @@
+.cars-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+
+    .car-item {
+        background-color: #00bbbb;
+        color: #113400;
+        font-weight: bold;
+    }
+}
