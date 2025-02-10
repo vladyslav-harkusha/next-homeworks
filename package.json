@@ -9,8 +9,10 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@hookform/resolvers": "^3.10.0",
     "axios": "^1.7.9",
     "classnames": "^2.5.1",
+    "joi": "^17.13.3",
     "next": "15.1.6",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
